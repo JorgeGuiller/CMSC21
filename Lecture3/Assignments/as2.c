@@ -24,7 +24,8 @@ char list2[8][20]={
     "seventy",
     "eighty",
     "ninety",
-};
+    };
+    
 char list3[10][20]={
     "",
     "-one",
@@ -36,8 +37,8 @@ char list3[10][20]={
     "-seven",
     "-eight",
     "-nine",
-
-};
+    };
+    
 do {
     printf("Input a two digit number:");
     scanf("%d", &number);
