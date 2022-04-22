@@ -8,7 +8,7 @@ if (( b == 3 )&&( a == 2 )){       //changed if statement condition to (( b == 3
 
 else{
     printf( "-----" );
-    printf( ">>>>>" );
-    printf( "<<<<<" );}
+    printf( ">>>>>" );             //added to else statement to avoid being printed at b=3 and a=2
+    printf( "<<<<<" );}            //added to else statement to avoid being printed at b=3 and a=2
 
 }
