@@ -1,14 +1,14 @@
 #include<stdio.h>
 void main()
 {
-int a=2,b=3;
+int a=2,b=3;                    //variable declaration
 
-if (( b == 3 )&&( a == 2 )){
-    printf( "*****" );}
+if (( b == 3 )&&( a == 2 )){    //if statement condition changed to (( b == 3 )&&( a == 2 ))
+    printf( "*****\n" );}       //added \n to break line
 
 else{
-    printf( "-----" );
-    printf( ">>>>>" );}
+    printf( "-----\n" );        //added \n to break line
+    printf( ">>>>>\n" );}       //added \n to break line and added to else to avoid printing at b==3 and a==2
 
-printf( "<<<<<" );
+printf( "<<<<<" );              //added \n to break line
 }
