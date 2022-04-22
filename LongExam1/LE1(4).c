@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdio.h>
+#include<math.h>
 void main(){
 //Variable Declarations
 double res;
