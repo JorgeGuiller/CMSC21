@@ -1,0 +1,33 @@
+#include <stdio.h>
+#define SIZE 5
+int main(void){
+//a
+int numbers[SIZE] = {1, 2, 3, 4, 5};
+//b
+int *ptr;
+//c
+ptr = &numbers[0];
+//d
+for (int i=0; i<SIZE; i++) {
+printf("%d, ", *(ptr + i));
+}
+printf("\n");
+//e
+for (int i=0; i<SIZE; i++) {
+printf("%d ", *(numbers + i));
+}
+printf("\n\n");
+//f
+printf("%d\n", numbers[1]);
+printf("%d\n", *(numbers+1));
+printf("%d\n", ptr[1]);
+printf("%d\n", *(ptr+1));
+
+//g
+/*
+Since the assumption states that the address starts at 2500 and each integer is stored in 4 bytes. thus, ptr+2=2500+4(2)=2508
+the value stoered in that address is
+*/
+return 0;
+
+}
