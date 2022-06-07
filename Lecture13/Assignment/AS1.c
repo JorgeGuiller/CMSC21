@@ -56,7 +56,7 @@ int main(void) {
     solveMidpoint(&line);
     solveDistance(&line);
 
-    //Out display code bloack
+    //Output display code bloack
     printf("\nSlope: m = %g\nMidpoint = (%g, %g)\nDistance between two points: d = %g", line.slope,line.midpoint[0], line.midpoint[1],line.distance);
     getSlopeInterceptForm(&line);
 }
